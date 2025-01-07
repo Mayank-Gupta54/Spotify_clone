@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="left">
+        <div class="close invert"><img src="svg/close.svg" alt=""></div>
+        <div class="home">
+            <img class="invert" src="svg/logo.svg" alt="">
+            <ul>
+                <li><img class="invert" src="svg/home.svg" alt="">Home</li>
+                <li><img class="invert" src="svg/search.svg" alt="">Search</li>
+            </ul>
+        </div>
+        <div class="library">
+            <h4><img class="invert" src="svg/library.svg" alt="">Your Library</h4>
+            <div class="songlist">
+                <!-- <div class="boxx"><div class="first ">
+                    <img class="invert" src="svg/music.svg" alt="">
+                    <div class="info">Song</div>
+                </div>
+                <div class="second">
+                    <div class="playnow">Play Now</div>
+                    <img src="svg/play.svg" alt="" class="invert">
+                </div></div> -->
+            </div>
+            <div class="footer">
+                <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
+                    <span data-encore-id="type">Legal</span>
+                </a>
+                <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
+                    <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                </a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
+                    <span data-encore-id="type">Privacy Policy</span>
+                </a>
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
+                    <span data-encore-id="type">Cookies</span>
+                </a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
+                    <span data-encore-id="type">About Ads</span>
+                </a>
+                <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
+                    <span data-encore-id="type">Accessibility</span>
+                </a>
+                <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                    rel="noopener">
+                    <span class="encore-text encore-text-marginal" data-encore-id="text">Cookies</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="header">
+            <div class="nav">
+                <img class="invert hamberger" src="svg/hamberger.svg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff"
+                    fill="none">
+                    <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff"
+                    fill="none">
+                    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="button">
+                <button class="nothing">Sign up</button>
+                <button class="white">Log in</button>
+            </div>
+        </div>
+        <div class="popularAlbum">
+            <h2>Popular albums</h2>
+            <div class="cardcontainer">
+                <div data-folder="cs" class="card">
+                    <img src="img/ashiqui2.jpg" alt="">
+                    <h4>Aashiqui 2</h4>
+                    <p>Mithoon, Ankit Tiwari, Jeet Ganguli</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div data-folder="ncs" class="card">
+
+                    <img src="img/badshah.jpg" alt="">
+                    <h4>Eak Tha Raja</h4>
+                    <p>Badshah</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div  class="card">
+                    <img src="img/animal.jpg" alt="">
+                    <h4>Animal</h4>
+                    <p>Manan Bhardwaj, Vishal Mishra, Janni</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/sajni.jpg" alt="">
+                    <h4>Sajni</h4>
+                    <p>Ram Sampath, Arijit singh</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/mosetape.jpg" alt="">
+                    <h4>MooseTape</h4>
+                    <p>Sidhu Moose Wala</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/rollin.jpg" alt="">
+                    <h4>Still Rollin</h4>
+                    <p>Subh</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/rockstar.jpg" alt="">
+                    <h4>Rockstar</h4>
+                    <p>A.R Rahman, Irshad Kamil</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/kabirsingh.jpg" alt="">
+                    <h4>Kabir Singh</h4>
+                    <p>Various Artists</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="img/ashiqui2.jpg" alt="">
+                    <h4>Aashiqui 2</h4>
+                    <p>Mithoon, Ankit Tiwari, Jeet Ganguli</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/badshah.jpg" alt="">
+                    <h4>Eak Tha Raja</h4>
+                    <p>Badshah</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+                    <img src="img/animal.jpg" alt="">
+                    <h4>Animal</h4>
+                    <p>Manan Bhardwaj, Vishal Mishra, Janni</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/sajni.jpg" alt="">
+                    <h4>Sajni</h4>
+                    <p>Ram Sampath, Arijit singh</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/mosetape.jpg" alt="">
+                    <h4>MooseTape</h4>
+                    <p>Sidhu Moose Wala</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/rollin.jpg" alt="">
+                    <h4>Still Rollin</h4>
+                    <p>Subh</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/rockstar.jpg" alt="">
+                    <h4>Rockstar</h4>
+                    <p>A.R Rahman, Irshad Kamil</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+                <div class="card">
+
+                    <img src="img/kabirsingh.jpg" alt="">
+                    <h4>Kabir Singh</h4>
+                    <p>Various Artists</p>
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            fill="none">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg></div>
+                </div>
+            </div>
+        </div>
+        <div class="playbarflex">
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="songbar">   
+                    <div class="songinfo"></div>
+                    <div class="playbuttons">
+                        <img id="previous" src="svg/previous.svg" alt="">
+                        <img id="play" src="svg/play.svg" alt="">
+                        <img id="next" src="svg/next.svg" alt="">
+                    </div>
+                    <div class="voldur">
+                        <div class="songduration"></div>
+                        <div class="volume">
+                            <img src="svg/volume.svg" alt="">
+                        </div>
+                        <div class="range">
+                            <input type="range" name="volumed">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
